@@ -1,0 +1,5 @@
+/.vscode
+/data
+/out_test_data.csv
+/out_training_data.csv
+/test.csv
