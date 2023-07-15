@@ -5,3 +5,4 @@
 /test.csv
 __pycache__/*
 render.html
+out.csv
