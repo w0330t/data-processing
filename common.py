@@ -24,13 +24,13 @@ def read_kline_data(file_path:str) -> pd.DataFrame:
     return df
 
 
-def convert_timestamp(timestamp):
+def convert_timestamp(timestamp: int) -> datetime.datetime:
     """将时间戳转换为自然时间
 
     Args:
         timestamp (int): 毫秒级别的时间戳
 
     Returns:
-        datetime: 自然时间
+        datetime.datetime: 转换后的日期时间对象
     """
     return datetime.datetime.fromtimestamp(timestamp / 1000)
